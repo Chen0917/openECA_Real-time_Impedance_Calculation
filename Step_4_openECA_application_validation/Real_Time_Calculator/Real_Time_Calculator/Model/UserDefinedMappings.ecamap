@@ -1,0 +1,17 @@
+VT VI_pair VI_data {
+    From_bus_Voltage_Mag: PPA:5 
+    From_bus_Voltage_Ang: PPA:6 
+    From_bus_Current_Mag: PPA:9 
+    From_bus_Current_Ang: PPA:10 
+    To_bus_Voltage_Mag: PPA:7 
+    To_bus_Voltage_Ang: PPA:8 
+    To_bus_Current_Mag: PPA:11 
+    To_bus_Current_Ang: PPA:12 
+}
+
+VT Line_parameters Tranmission_line_parameters {
+    Impedance_Real: PPA:13 
+    Impedance_Imag: PPA:14 
+    Susceptance: PPA:2 
+}
+

@@ -1,0 +1,19 @@
+category VT
+VI_pair {
+    FloatingPoint Double From_bus_Voltage_Mag
+    FloatingPoint Double From_bus_Voltage_Ang
+    FloatingPoint Double From_bus_Current_Mag
+    FloatingPoint Double From_bus_Current_Ang
+    FloatingPoint Double To_bus_Voltage_Mag
+    FloatingPoint Double To_bus_Voltage_Ang
+    FloatingPoint Double To_bus_Current_Mag
+    FloatingPoint Double To_bus_Current_Ang
+}
+
+category VT
+Line_parameters {
+    FloatingPoint Double Impedance_Real
+    FloatingPoint Double Impedance_Imag
+    FloatingPoint Double Susceptance
+}
+
